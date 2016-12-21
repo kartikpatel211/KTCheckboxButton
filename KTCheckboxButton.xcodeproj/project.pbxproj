@@ -7,64 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		666C47881E0A526000CF0709 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C47871E0A526000CF0709 /* AppDelegate.swift */; };
-		666C478A1E0A526000CF0709 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C47891E0A526000CF0709 /* ViewController.swift */; };
-		666C478D1E0A526000CF0709 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666C478B1E0A526000CF0709 /* Main.storyboard */; };
-		666C478F1E0A526000CF0709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666C478E1E0A526000CF0709 /* Assets.xcassets */; };
-		666C47921E0A526000CF0709 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666C47901E0A526000CF0709 /* LaunchScreen.storyboard */; };
-		666C479D1E0A526000CF0709 /* KTCheckboxButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C479C1E0A526000CF0709 /* KTCheckboxButtonTests.swift */; };
-		666C47A81E0A526000CF0709 /* KTCheckboxButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C47A71E0A526000CF0709 /* KTCheckboxButtonUITests.swift */; };
+		666C474C1E0A427300CF0709 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C474B1E0A427300CF0709 /* AppDelegate.swift */; };
+		666C474E1E0A427300CF0709 /* CheckboxExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C474D1E0A427300CF0709 /* CheckboxExampleViewController.swift */; };
+		666C47511E0A427300CF0709 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666C474F1E0A427300CF0709 /* Main.storyboard */; };
+		666C47531E0A427300CF0709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666C47521E0A427300CF0709 /* Assets.xcassets */; };
+		666C47561E0A427300CF0709 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666C47541E0A427300CF0709 /* LaunchScreen.storyboard */; };
+		666C47611E0A427300CF0709 /* KTCheckboxButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C47601E0A427300CF0709 /* KTCheckboxButtonTests.swift */; };
+		666C476C1E0A427300CF0709 /* KTCheckboxButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C476B1E0A427300CF0709 /* KTCheckboxButtonUITests.swift */; };
+		666C477A1E0A42D900CF0709 /* CheckboxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666C47791E0A42D900CF0709 /* CheckboxButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		666C47991E0A526000CF0709 /* PBXContainerItemProxy */ = {
+		666C475D1E0A427300CF0709 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 666C477C1E0A525F00CF0709 /* Project object */;
+			containerPortal = 666C47401E0A427300CF0709 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 666C47831E0A526000CF0709;
+			remoteGlobalIDString = 666C47471E0A427300CF0709;
 			remoteInfo = KTCheckboxButton;
 		};
-		666C47A41E0A526000CF0709 /* PBXContainerItemProxy */ = {
+		666C47681E0A427300CF0709 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 666C477C1E0A525F00CF0709 /* Project object */;
+			containerPortal = 666C47401E0A427300CF0709 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 666C47831E0A526000CF0709;
+			remoteGlobalIDString = 666C47471E0A427300CF0709;
 			remoteInfo = KTCheckboxButton;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		666C47841E0A526000CF0709 /* KTCheckboxButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTCheckboxButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		666C47871E0A526000CF0709 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		666C47891E0A526000CF0709 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		666C478C1E0A526000CF0709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		666C478E1E0A526000CF0709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		666C47911E0A526000CF0709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		666C47931E0A526000CF0709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		666C47981E0A526000CF0709 /* KTCheckboxButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTCheckboxButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		666C479C1E0A526000CF0709 /* KTCheckboxButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTCheckboxButtonTests.swift; sourceTree = "<group>"; };
-		666C479E1E0A526000CF0709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		666C47A31E0A526000CF0709 /* KTCheckboxButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTCheckboxButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		666C47A71E0A526000CF0709 /* KTCheckboxButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTCheckboxButtonUITests.swift; sourceTree = "<group>"; };
-		666C47A91E0A526000CF0709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666C47481E0A427300CF0709 /* KTCheckboxButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTCheckboxButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		666C474B1E0A427300CF0709 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		666C474D1E0A427300CF0709 /* CheckboxExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxExampleViewController.swift; sourceTree = "<group>"; };
+		666C47501E0A427300CF0709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		666C47521E0A427300CF0709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		666C47551E0A427300CF0709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		666C47571E0A427300CF0709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666C475C1E0A427300CF0709 /* KTCheckboxButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTCheckboxButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		666C47601E0A427300CF0709 /* KTCheckboxButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTCheckboxButtonTests.swift; sourceTree = "<group>"; };
+		666C47621E0A427300CF0709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666C47671E0A427300CF0709 /* KTCheckboxButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTCheckboxButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		666C476B1E0A427300CF0709 /* KTCheckboxButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTCheckboxButtonUITests.swift; sourceTree = "<group>"; };
+		666C476D1E0A427300CF0709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666C47791E0A42D900CF0709 /* CheckboxButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckboxButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		666C47811E0A526000CF0709 /* Frameworks */ = {
+		666C47451E0A427300CF0709 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		666C47951E0A526000CF0709 /* Frameworks */ = {
+		666C47591E0A427300CF0709 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		666C47A01E0A526000CF0709 /* Frameworks */ = {
+		666C47641E0A427300CF0709 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,53 +76,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		666C477B1E0A525F00CF0709 = {
+		666C473F1E0A427300CF0709 = {
 			isa = PBXGroup;
 			children = (
-				666C47861E0A526000CF0709 /* KTCheckboxButton */,
-				666C479B1E0A526000CF0709 /* KTCheckboxButtonTests */,
-				666C47A61E0A526000CF0709 /* KTCheckboxButtonUITests */,
-				666C47851E0A526000CF0709 /* Products */,
+				666C474A1E0A427300CF0709 /* KTCheckboxButton */,
+				666C475F1E0A427300CF0709 /* KTCheckboxButtonTests */,
+				666C476A1E0A427300CF0709 /* KTCheckboxButtonUITests */,
+				666C47491E0A427300CF0709 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		666C47851E0A526000CF0709 /* Products */ = {
+		666C47491E0A427300CF0709 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				666C47841E0A526000CF0709 /* KTCheckboxButton.app */,
-				666C47981E0A526000CF0709 /* KTCheckboxButtonTests.xctest */,
-				666C47A31E0A526000CF0709 /* KTCheckboxButtonUITests.xctest */,
+				666C47481E0A427300CF0709 /* KTCheckboxButton.app */,
+				666C475C1E0A427300CF0709 /* KTCheckboxButtonTests.xctest */,
+				666C47671E0A427300CF0709 /* KTCheckboxButtonUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		666C47861E0A526000CF0709 /* KTCheckboxButton */ = {
+		666C474A1E0A427300CF0709 /* KTCheckboxButton */ = {
 			isa = PBXGroup;
 			children = (
-				666C47871E0A526000CF0709 /* AppDelegate.swift */,
-				666C47891E0A526000CF0709 /* ViewController.swift */,
-				666C478B1E0A526000CF0709 /* Main.storyboard */,
-				666C478E1E0A526000CF0709 /* Assets.xcassets */,
-				666C47901E0A526000CF0709 /* LaunchScreen.storyboard */,
-				666C47931E0A526000CF0709 /* Info.plist */,
+				666C474B1E0A427300CF0709 /* AppDelegate.swift */,
+				666C474D1E0A427300CF0709 /* CheckboxExampleViewController.swift */,
+				666C47791E0A42D900CF0709 /* CheckboxButton.swift */,
+				666C474F1E0A427300CF0709 /* Main.storyboard */,
+				666C47521E0A427300CF0709 /* Assets.xcassets */,
+				666C47541E0A427300CF0709 /* LaunchScreen.storyboard */,
+				666C47571E0A427300CF0709 /* Info.plist */,
 			);
 			path = KTCheckboxButton;
 			sourceTree = "<group>";
 		};
-		666C479B1E0A526000CF0709 /* KTCheckboxButtonTests */ = {
+		666C475F1E0A427300CF0709 /* KTCheckboxButtonTests */ = {
 			isa = PBXGroup;
 			children = (
-				666C479C1E0A526000CF0709 /* KTCheckboxButtonTests.swift */,
-				666C479E1E0A526000CF0709 /* Info.plist */,
+				666C47601E0A427300CF0709 /* KTCheckboxButtonTests.swift */,
+				666C47621E0A427300CF0709 /* Info.plist */,
 			);
 			path = KTCheckboxButtonTests;
 			sourceTree = "<group>";
 		};
-		666C47A61E0A526000CF0709 /* KTCheckboxButtonUITests */ = {
+		666C476A1E0A427300CF0709 /* KTCheckboxButtonUITests */ = {
 			isa = PBXGroup;
 			children = (
-				666C47A71E0A526000CF0709 /* KTCheckboxButtonUITests.swift */,
-				666C47A91E0A526000CF0709 /* Info.plist */,
+				666C476B1E0A427300CF0709 /* KTCheckboxButtonUITests.swift */,
+				666C476D1E0A427300CF0709 /* Info.plist */,
 			);
 			path = KTCheckboxButtonUITests;
 			sourceTree = "<group>";
@@ -128,13 +131,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		666C47831E0A526000CF0709 /* KTCheckboxButton */ = {
+		666C47471E0A427300CF0709 /* KTCheckboxButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 666C47AC1E0A526000CF0709 /* Build configuration list for PBXNativeTarget "KTCheckboxButton" */;
+			buildConfigurationList = 666C47701E0A427300CF0709 /* Build configuration list for PBXNativeTarget "KTCheckboxButton" */;
 			buildPhases = (
-				666C47801E0A526000CF0709 /* Sources */,
-				666C47811E0A526000CF0709 /* Frameworks */,
-				666C47821E0A526000CF0709 /* Resources */,
+				666C47441E0A427300CF0709 /* Sources */,
+				666C47451E0A427300CF0709 /* Frameworks */,
+				666C47461E0A427300CF0709 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -142,75 +145,75 @@
 			);
 			name = KTCheckboxButton;
 			productName = KTCheckboxButton;
-			productReference = 666C47841E0A526000CF0709 /* KTCheckboxButton.app */;
+			productReference = 666C47481E0A427300CF0709 /* KTCheckboxButton.app */;
 			productType = "com.apple.product-type.application";
 		};
-		666C47971E0A526000CF0709 /* KTCheckboxButtonTests */ = {
+		666C475B1E0A427300CF0709 /* KTCheckboxButtonTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 666C47AF1E0A526000CF0709 /* Build configuration list for PBXNativeTarget "KTCheckboxButtonTests" */;
+			buildConfigurationList = 666C47731E0A427300CF0709 /* Build configuration list for PBXNativeTarget "KTCheckboxButtonTests" */;
 			buildPhases = (
-				666C47941E0A526000CF0709 /* Sources */,
-				666C47951E0A526000CF0709 /* Frameworks */,
-				666C47961E0A526000CF0709 /* Resources */,
+				666C47581E0A427300CF0709 /* Sources */,
+				666C47591E0A427300CF0709 /* Frameworks */,
+				666C475A1E0A427300CF0709 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				666C479A1E0A526000CF0709 /* PBXTargetDependency */,
+				666C475E1E0A427300CF0709 /* PBXTargetDependency */,
 			);
 			name = KTCheckboxButtonTests;
 			productName = KTCheckboxButtonTests;
-			productReference = 666C47981E0A526000CF0709 /* KTCheckboxButtonTests.xctest */;
+			productReference = 666C475C1E0A427300CF0709 /* KTCheckboxButtonTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		666C47A21E0A526000CF0709 /* KTCheckboxButtonUITests */ = {
+		666C47661E0A427300CF0709 /* KTCheckboxButtonUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 666C47B21E0A526000CF0709 /* Build configuration list for PBXNativeTarget "KTCheckboxButtonUITests" */;
+			buildConfigurationList = 666C47761E0A427300CF0709 /* Build configuration list for PBXNativeTarget "KTCheckboxButtonUITests" */;
 			buildPhases = (
-				666C479F1E0A526000CF0709 /* Sources */,
-				666C47A01E0A526000CF0709 /* Frameworks */,
-				666C47A11E0A526000CF0709 /* Resources */,
+				666C47631E0A427300CF0709 /* Sources */,
+				666C47641E0A427300CF0709 /* Frameworks */,
+				666C47651E0A427300CF0709 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				666C47A51E0A526000CF0709 /* PBXTargetDependency */,
+				666C47691E0A427300CF0709 /* PBXTargetDependency */,
 			);
 			name = KTCheckboxButtonUITests;
 			productName = KTCheckboxButtonUITests;
-			productReference = 666C47A31E0A526000CF0709 /* KTCheckboxButtonUITests.xctest */;
+			productReference = 666C47671E0A427300CF0709 /* KTCheckboxButtonUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		666C477C1E0A525F00CF0709 /* Project object */ = {
+		666C47401E0A427300CF0709 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Kartik Patel";
 				TargetAttributes = {
-					666C47831E0A526000CF0709 = {
+					666C47471E0A427300CF0709 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = KP9ST78F2Z;
 						ProvisioningStyle = Automatic;
 					};
-					666C47971E0A526000CF0709 = {
+					666C475B1E0A427300CF0709 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = KP9ST78F2Z;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 666C47831E0A526000CF0709;
+						TestTargetID = 666C47471E0A427300CF0709;
 					};
-					666C47A21E0A526000CF0709 = {
+					666C47661E0A427300CF0709 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = KP9ST78F2Z;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 666C47831E0A526000CF0709;
+						TestTargetID = 666C47471E0A427300CF0709;
 					};
 				};
 			};
-			buildConfigurationList = 666C477F1E0A525F00CF0709 /* Build configuration list for PBXProject "KTCheckboxButton" */;
+			buildConfigurationList = 666C47431E0A427300CF0709 /* Build configuration list for PBXProject "KTCheckboxButton" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,37 +221,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 666C477B1E0A525F00CF0709;
-			productRefGroup = 666C47851E0A526000CF0709 /* Products */;
+			mainGroup = 666C473F1E0A427300CF0709;
+			productRefGroup = 666C47491E0A427300CF0709 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				666C47831E0A526000CF0709 /* KTCheckboxButton */,
-				666C47971E0A526000CF0709 /* KTCheckboxButtonTests */,
-				666C47A21E0A526000CF0709 /* KTCheckboxButtonUITests */,
+				666C47471E0A427300CF0709 /* KTCheckboxButton */,
+				666C475B1E0A427300CF0709 /* KTCheckboxButtonTests */,
+				666C47661E0A427300CF0709 /* KTCheckboxButtonUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		666C47821E0A526000CF0709 /* Resources */ = {
+		666C47461E0A427300CF0709 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				666C47921E0A526000CF0709 /* LaunchScreen.storyboard in Resources */,
-				666C478F1E0A526000CF0709 /* Assets.xcassets in Resources */,
-				666C478D1E0A526000CF0709 /* Main.storyboard in Resources */,
+				666C47561E0A427300CF0709 /* LaunchScreen.storyboard in Resources */,
+				666C47531E0A427300CF0709 /* Assets.xcassets in Resources */,
+				666C47511E0A427300CF0709 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		666C47961E0A526000CF0709 /* Resources */ = {
+		666C475A1E0A427300CF0709 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		666C47A11E0A526000CF0709 /* Resources */ = {
+		666C47651E0A427300CF0709 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,59 +261,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		666C47801E0A526000CF0709 /* Sources */ = {
+		666C47441E0A427300CF0709 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				666C478A1E0A526000CF0709 /* ViewController.swift in Sources */,
-				666C47881E0A526000CF0709 /* AppDelegate.swift in Sources */,
+				666C474E1E0A427300CF0709 /* CheckboxExampleViewController.swift in Sources */,
+				666C477A1E0A42D900CF0709 /* CheckboxButton.swift in Sources */,
+				666C474C1E0A427300CF0709 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		666C47941E0A526000CF0709 /* Sources */ = {
+		666C47581E0A427300CF0709 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				666C479D1E0A526000CF0709 /* KTCheckboxButtonTests.swift in Sources */,
+				666C47611E0A427300CF0709 /* KTCheckboxButtonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		666C479F1E0A526000CF0709 /* Sources */ = {
+		666C47631E0A427300CF0709 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				666C47A81E0A526000CF0709 /* KTCheckboxButtonUITests.swift in Sources */,
+				666C476C1E0A427300CF0709 /* KTCheckboxButtonUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		666C479A1E0A526000CF0709 /* PBXTargetDependency */ = {
+		666C475E1E0A427300CF0709 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 666C47831E0A526000CF0709 /* KTCheckboxButton */;
-			targetProxy = 666C47991E0A526000CF0709 /* PBXContainerItemProxy */;
+			target = 666C47471E0A427300CF0709 /* KTCheckboxButton */;
+			targetProxy = 666C475D1E0A427300CF0709 /* PBXContainerItemProxy */;
 		};
-		666C47A51E0A526000CF0709 /* PBXTargetDependency */ = {
+		666C47691E0A427300CF0709 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 666C47831E0A526000CF0709 /* KTCheckboxButton */;
-			targetProxy = 666C47A41E0A526000CF0709 /* PBXContainerItemProxy */;
+			target = 666C47471E0A427300CF0709 /* KTCheckboxButton */;
+			targetProxy = 666C47681E0A427300CF0709 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		666C478B1E0A526000CF0709 /* Main.storyboard */ = {
+		666C474F1E0A427300CF0709 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				666C478C1E0A526000CF0709 /* Base */,
+				666C47501E0A427300CF0709 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		666C47901E0A526000CF0709 /* LaunchScreen.storyboard */ = {
+		666C47541E0A427300CF0709 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				666C47911E0A526000CF0709 /* Base */,
+				666C47551E0A427300CF0709 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -318,7 +322,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		666C47AA1E0A526000CF0709 /* Debug */ = {
+		666C476E1E0A427300CF0709 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -368,7 +372,7 @@
 			};
 			name = Debug;
 		};
-		666C47AB1E0A526000CF0709 /* Release */ = {
+		666C476F1E0A427300CF0709 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -411,7 +415,7 @@
 			};
 			name = Release;
 		};
-		666C47AD1E0A526000CF0709 /* Debug */ = {
+		666C47711E0A427300CF0709 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -425,7 +429,7 @@
 			};
 			name = Debug;
 		};
-		666C47AE1E0A526000CF0709 /* Release */ = {
+		666C47721E0A427300CF0709 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -439,7 +443,7 @@
 			};
 			name = Release;
 		};
-		666C47B01E0A526000CF0709 /* Debug */ = {
+		666C47741E0A427300CF0709 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -454,7 +458,7 @@
 			};
 			name = Debug;
 		};
-		666C47B11E0A526000CF0709 /* Release */ = {
+		666C47751E0A427300CF0709 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -469,7 +473,7 @@
 			};
 			name = Release;
 		};
-		666C47B31E0A526000CF0709 /* Debug */ = {
+		666C47771E0A427300CF0709 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -483,7 +487,7 @@
 			};
 			name = Debug;
 		};
-		666C47B41E0A526000CF0709 /* Release */ = {
+		666C47781E0A427300CF0709 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -500,40 +504,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		666C477F1E0A525F00CF0709 /* Build configuration list for PBXProject "KTCheckboxButton" */ = {
+		666C47431E0A427300CF0709 /* Build configuration list for PBXProject "KTCheckboxButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				666C47AA1E0A526000CF0709 /* Debug */,
-				666C47AB1E0A526000CF0709 /* Release */,
+				666C476E1E0A427300CF0709 /* Debug */,
+				666C476F1E0A427300CF0709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		666C47AC1E0A526000CF0709 /* Build configuration list for PBXNativeTarget "KTCheckboxButton" */ = {
+		666C47701E0A427300CF0709 /* Build configuration list for PBXNativeTarget "KTCheckboxButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				666C47AD1E0A526000CF0709 /* Debug */,
-				666C47AE1E0A526000CF0709 /* Release */,
+				666C47711E0A427300CF0709 /* Debug */,
+				666C47721E0A427300CF0709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		666C47AF1E0A526000CF0709 /* Build configuration list for PBXNativeTarget "KTCheckboxButtonTests" */ = {
+		666C47731E0A427300CF0709 /* Build configuration list for PBXNativeTarget "KTCheckboxButtonTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				666C47B01E0A526000CF0709 /* Debug */,
-				666C47B11E0A526000CF0709 /* Release */,
+				666C47741E0A427300CF0709 /* Debug */,
+				666C47751E0A427300CF0709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		666C47B21E0A526000CF0709 /* Build configuration list for PBXNativeTarget "KTCheckboxButtonUITests" */ = {
+		666C47761E0A427300CF0709 /* Build configuration list for PBXNativeTarget "KTCheckboxButtonUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				666C47B31E0A526000CF0709 /* Debug */,
-				666C47B41E0A526000CF0709 /* Release */,
+				666C47771E0A427300CF0709 /* Debug */,
+				666C47781E0A427300CF0709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 666C477C1E0A525F00CF0709 /* Project object */;
+	rootObject = 666C47401E0A427300CF0709 /* Project object */;
 }
